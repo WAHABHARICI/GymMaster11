@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymMaster Installer</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        color: white;
+        background: linear-gradient(135deg, #212529 60%, #e51937);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin-bottom: 30px;
+        color: #f1f1f1;
+      }
+
+      a.download-btn {
+        background-color: #e51937;
+        color: white;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
+
+      a.download-btn:hover {
+        background-color: #ff2e4f;
+        transform: scale(1.05);
+      }
+
+      footer {
+        position: absolute;
+        bottom: 15px;
+        font-size: 0.9rem;
+        color: #ddd;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1rem;
+          padding: 0 15px;
+        }
+
+        a.download-btn {
+          padding: 12px 30px;
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GymMaster Installer</h1>
+    <p>
+      Le téléchargement commencera automatiquement dans quelques secondes...
+    </p>
+    <a
+      href="https://drive.google.com/uc?export=download&id=1dcxjxCJUX8bkpHGhzXZzDOt5q688bHhE"
+      class="download-btn"
+      >⬇ Télécharger maintenant</a
+    >
+    <footer>© 2025 GymMaster - Tous droits réservés</footer>
+
+    <script>
+      // Automatically start the download after 2 seconds
+      setTimeout(() => {
+        window.location.href =
+          "https://drive.google.com/uc?export=download&id=1dcxjxCJUX8bkpHGhzXZzDOt5q688bHhE";
+      }, 2000);
+    </script>
+  </body>
+</html>
